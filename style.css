@@ -20,9 +20,15 @@ ul {
 a {
     text-decoration: none;
 }
+.container {
+    width: 1366px;
+    margin: 0 auto;
+  }
 
 .main-cv {
-    margin: 0 80px;
+    
+    margin: 0 0px;
+    padding: 0 80px;
     display: grid;
     grid-template-columns: 2fr 4fr;
     font-family: Oswald;
@@ -267,7 +273,7 @@ nav {
     margin: auto;
     justify-content: space-between;
     align-self: center;
-    margin: 0 180px;
+    padding: 0 80px;
     flex-wrap: wrap;
     padding: 20px;
     margin-top: 10px;
@@ -285,24 +291,7 @@ nav {
     color: rgb(0, 0, 0);
 }
 
-.min-nav {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 20px;
-    margin-top: 10px;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: left;
-    letter-spacing: 2.608px;
-    color: rgb(42, 108, 161);
-    display: none;
-    background-color: rgb(219, 179, 76);
-}
+
 
 .hide>li:hover .min-nav, .menu-list>li:hover {
     display: block;
