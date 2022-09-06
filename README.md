@@ -1,1 +1,1 @@
-# rsschool-cv
+https://voojin.github.io/rsschool-cv/
