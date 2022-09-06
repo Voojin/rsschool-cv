@@ -1,134 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vyacheslav Naryshkin</title>
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul class="main-nav hid">
-                <li><a href="#ed">Education</a></li>
-                <li><a href="#cont">Contact</a></li>
-                <li><a href="#works">Projects</a></li>
-            </ul>
-            <ul class="hide">
-                <li class=""><img src="/img/menu.png" alt="">
-                    <ul class="min-nav">
-                        <li><a href="#ed">Education</a></li>
-                        <li><a href="#cont">Contact</a></li>
-                        <li><a href="#works">Projects</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main-cv">
-        <div class="cv-left">
-            <div class="photo"><img src="img/me-photo.jpg" alt="my-photo"></div>
-            <h1>Vyacheslav Naryshkin</h1>
-            <section id="cont" class="contacts">
-                <h2>Contacts:</h2>
-                <ul class="contact-list">
-                    <li><a href="Voojin(@Voojin)" target="_blank"><img src="img/discord-orange.svg"
-                                alt="">Voojin(@Voojin)</a></li>
-                    <li><a href="https://github.com/Voojin" target="_blank"><img src="img/github-orange.svg"
-                                alt="">Voojin</a></li>
-                    <li><a href="voojin@bk.ru" target="_blank"><img src="img/mail-orange.svg" alt="">voojin@bk.ru</a>
-                    </li>
-                    <li><a href="https://t.me/Voojinful" target="_blank"><img src="img/telegram-orange.svg"
-                                alt="">@Voojinful</a></li>
-
-                </ul>
-            </section>
-        </div>
-        <aside class="cv-right">
-            <article class="about-me">
-                <h3>About me:</h3>
-                <ul>
-                    <li>Location: Russia, Irkutsk.</li>
-                    <li>Age: 32.</li>
-                </ul>
-                <p>
-                    I am Junior Front-End developer.Started my training in the spring of 2021. During this time, I
-                    participated in several marathons from the HTML Academy. I have made several one-page training
-                    sites. I am currently studying at The Rolling Scopes School.
-                </p>
-            </article>
-            <article id="ed" class="education">
-                <h3>Education:</h3>
-                <ul>
-                    <li>
-                        <b>Institute of Mathematics and Information Technologies:</b><br>
-                        Software and Information System Administration(2011)
-                    </li>
-                </ul>
-            </article>
-            <article class="skills">
-                <h3>Skills:</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>Sass</li>
-                    <li>GIT</li>
-                    <li>JavaScript(basic)</li>
-                    <li>English - B1</li>
-                    <li>Russian - Native</li>
-                </ul>
-            </article>
-            <article class="code">
-                <h3>Code example</h3>
-                <pre>heart.onclick = function () {
-if (heart.classList.contains('added')) {
-likesNumber.textContent--;
-} else {
-likesNumber.textContent++;
-}
-      
-heart.classList.toggle('added');
-};</pre>
-            </article>
-
-            <section>
-                <h3 id="works" class="h3-works">My projects:</h3>
-                <div class="my-works">
-                    <div class="work-1">
-                        <a href="https://voojin.github.io/plan/" target="_blank"> <img src="img/work1.bmp"
-                                alt="site-screen">
-                        </a>
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </div>
-                    <div class="work-2">
-                        <a href="https://voojin.github.io/Agency/" target="_blank"> <img src="img/work2.bmp"
-                                alt="site-screen">
-                        </a>
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </aside>
-    </main>
-    <footer>
-        <div><a href="https://github.com/Voojin" target="_blank"><img src="img/25231.png" alt="logo-gh"></a>
-        </div>
-        <div class="year">2021</div>
-        <div><a href="https://rs.school/js/" target="_blank"><img src="img/rs_school_js.svg" alt="logo-rss"></a></div>
-    </footer>
+  <script src="js/scripts.js"></script>
 </body>
-
 </html>
